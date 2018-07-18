@@ -3,6 +3,8 @@ Node js service for football-data.org V2 rest api
 
 Very simple node package for interacting with the new football-data.org rest api
 
+For more information about the methods responses and parameters, look at [football-data.org docs](https://www.football-data.org/documentation/quickstart)
+
 ## Basic usage
 ```
 const myApiToken = '123412341234';
