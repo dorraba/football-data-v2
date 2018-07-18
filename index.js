@@ -1,7 +1,7 @@
-import axios from 'axios';
-import querystring from 'querystring';
+const axios = require('axios');
+const querystring = require('querystring');
 
-export default class FootballData {
+class FootballData {
     constructor(token) {
         this.instance = axios.create({
             baseURL: 'http://api.football-data.org/v2/',
@@ -50,3 +50,5 @@ export default class FootballData {
         return this.instance.get(`/areas/${id}`)
     }
 }
+
+module.exports = FootballData;
