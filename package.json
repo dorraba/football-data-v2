@@ -1,0 +1,26 @@
+{
+  "name": "football-data",
+  "version": "1.0.0",
+  "description": "JS Api for using football-data.org rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dorraba/football-data-v2.git"
+  },
+  "keywords": [
+    "football-data"
+  ],
+  "author": "Dor Raba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorraba/football-data-v2/issues"
+  },
+  "homepage": "https://github.com/dorraba/football-data-v2#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "querystring": "^0.2.0"
+  }
+}
