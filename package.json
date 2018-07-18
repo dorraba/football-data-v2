@@ -1,5 +1,5 @@
 {
-  "name": "football-data",
+  "name": "football-data-v2",
   "version": "1.0.0",
   "description": "JS Api for using football-data.org rest api",
   "main": "index.js",
