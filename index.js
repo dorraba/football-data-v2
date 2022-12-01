@@ -4,7 +4,7 @@ const querystring = require('querystring');
 class FootballData {
     constructor(token) {
         this.instance = axios.create({
-            baseURL: 'http://api.football-data.org/v2/',
+            baseURL: 'http://api.football-data.org/v4/',
              timeout: 1000,
             headers: { 'X-Auth-Token': token }
         });
